@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Robbo Scratch",
+  "version": "3.0.0",
+  "minimum_chrome_version": "23",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+    "permissions":[
+
+        "serial",
+		{"fileSystem": ["write", "retainEntries", "directory"]},
+		"usb",
+    {
+        "usbDevices": [
+            {
+                "vendorId": 6421,
+                "productId": 30583
+            }
+        ]
+    }
+            ]
+}

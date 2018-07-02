@@ -1,0 +1,9 @@
+To run Robbo Scratch 3 application you need to make the following steps: 
+
+1. Create the folder somewhere in you home directory and copy all files from the archive to this folder. 
+2. Go to "Customize and Contol Chrome (Chromium)" in the top right corner.
+3. Click "More tools". And then "Extensions". 
+4. Click checkbox "Developer mode". 
+5. Click "Load unpacked extension" and choose the folder from step 1. 
+6. Turn off checkbox called "Collect errors" if it exists. 
+7. Then click "Launch".
